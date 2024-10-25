@@ -1,0 +1,86 @@
+# Arquivos do Quartus
+db/
+incremental_db/
+simulation/
+output_files/
+*.qws
+*.sld
+*.bsf
+*.rpt
+*.sof
+*.pof
+*.jdi
+*.qsf
+*.pin
+*.summary
+*.done
+*.smsg
+*.cdf
+*.cmp
+# *.qip
+*.qsys
+*.qdf
+*.bak
+*.log
+*.log.*
+
+# Arquivos do Qsys (para projetos com gerador de sistema)
+*.qsys_edit/
+*.qsys_edit_tmp/
+*.ipx/
+*.ptf
+*.qsys_checkpoints
+*.qsys_summary
+
+# Arquivos de configuração e cache do ModelSim (se utilizado para simulação)
+modelsim.ini
+transcript
+*.wlf
+*.vcd
+
+# Arquivos do Eclipse
+.project
+.cproject
+.settings/
+*.launch
+*.d
+*.o
+*.s
+*.swo
+*.swp
+
+# Arquivos de backup e temporários
+*~
+*.tmp
+*.bak
+*.backup
+*.log
+*.log.*
+
+# Binários e executáveis
+*.elf
+*.map
+*.hex
+*.bin
+*.out
+*.axf
+*.pyc
+*.pyo
+*.class
+*.sopcinfo
+*.jtag
+
+# Outros arquivos temporários
+.vscode/
+.DS_Store
+
+SqrtX/
+SOC/
+SOC.html
+
+Software/PCU_Teste*/
+Software/SOC_Project*/
+Software/SQRTx*/
+Software/PingPong*/
+# Diretório de metadados do Eclipse
+.metadata/
