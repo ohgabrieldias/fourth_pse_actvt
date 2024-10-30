@@ -17,9 +17,12 @@
 
 ## Instruções de Configuração
 
-1. Clone o repositório:
-   ```bash
-  cd C:\
-  mkdir PSE
-  git clone https://github.com/ohgabrieldias/fourth_pse_actvt
-  cd fourth_pse_actvt
+1. Navegue até a unidade C: e crie o diretório `PSE` caso ainda não exista:
+
+  ```bash
+
+    cd C:\
+    mkdir PSE
+    git clone <https://github.com/ohgabrieldias/fourth_pse_actvt>
+    cd fourth_pse_actvt
+  ```
