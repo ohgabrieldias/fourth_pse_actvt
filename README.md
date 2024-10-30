@@ -2,7 +2,7 @@
 ## Descrição dos Diretórios
 
 - **hardware/**: Diretório principal para os arquivos de hardware.
-  - **quartus/**: Arquivos de projeto do Quartus, incluindo os arquivos `.qpf` e `.SoC2.qsys`).
+  - **quartus/**: Arquivos de projeto do Quartus.
   - **rtl/**: Código RTL em Verilog ou VHDL, organizado em módulos e testbenches.
 - **software/**: Diretórios separados para os workspaces de software Nios II para cada SoC.
   - **SoC1_workspace/**: Primeiro projeto de software Nios II, incluindo o BSP, aplicativo e bibliotecas.
