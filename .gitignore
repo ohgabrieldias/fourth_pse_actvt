@@ -44,7 +44,9 @@ hardware/quartus/.qsys_edit/
 hardware/quartus/db/                    # Database files
 
 # Logs and Reports
-*.log                   # Log files
+**/*.log                   # Log files
+software/*.log             # Log files
+software/**/*.log
 *.bak                   # Backup files
 *.tmp                   # Temporary files
 *.rpt                   # Quartus report files

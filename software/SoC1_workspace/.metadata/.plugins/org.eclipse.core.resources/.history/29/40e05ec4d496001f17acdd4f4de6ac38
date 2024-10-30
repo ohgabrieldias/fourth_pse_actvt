@@ -177,7 +177,7 @@ CRT0 :=
 SYS_LIB :=
 
 # Define path to the root of the BSP.
-BSP_ROOT_DIR := C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/
+BSP_ROOT_DIR := C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/
 
 # List of application specific include directories, library directories and library names
 APP_INCLUDE_DIRS :=
@@ -188,7 +188,7 @@ APP_LIBRARY_NAMES :=
 BUILD_PRE_PROCESS :=
 BUILD_POST_PROCESS :=
 
-QUARTUS_PROJECT_DIR := C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/
+QUARTUS_PROJECT_DIR := C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC1/
 
 
 #END GENERATED

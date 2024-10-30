@@ -4,6 +4,9 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1572586082;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1771830490">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
+<includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/"/>
+<includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
 <includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
 <includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/"/>
 <includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
@@ -235,6 +238,9 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1666650573;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.30580663">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
+<includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/"/>
+<includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
 <includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
 <includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/"/>
 <includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>

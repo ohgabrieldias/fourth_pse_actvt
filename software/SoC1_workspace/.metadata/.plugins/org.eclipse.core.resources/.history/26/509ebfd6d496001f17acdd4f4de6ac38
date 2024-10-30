@@ -188,7 +188,7 @@ APP_LIBRARY_NAMES :=
 BUILD_PRE_PROCESS :=
 BUILD_POST_PROCESS :=
 
-QUARTUS_PROJECT_DIR := C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/
+QUARTUS_PROJECT_DIR := C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC1/
 
 
 #END GENERATED

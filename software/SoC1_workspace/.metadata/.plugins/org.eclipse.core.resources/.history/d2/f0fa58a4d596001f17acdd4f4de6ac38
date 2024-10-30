@@ -103,7 +103,7 @@ ACDS_VERSION := 13.0
 # BUILD_NUMBER: 156
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/SoC1.sopcinfo
+SOPC_FILE := C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC1/SoC1.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS
