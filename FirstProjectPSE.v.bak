@@ -1,0 +1,29 @@
+// Quartus II Verilog Template
+// Signed adder
+
+module FirstProjectPSE #(parameter WIDTH=8)
+(
+    input wire osc_clk,        // Porta de entrada para o sinal de clock
+    input wire reset_n,  // Porta de entrada para o reset
+    input wire [3:0] button, // Porta de entrada, vetor de 4 bits
+    output wire [3:0] led  // Porta de saída, vetor de 4 bits
+	output wire [15:0] x, // Porta de saída, vetor de 16 bits
+	input wire [15:0] rout, // Porta de entrada, vetor de 16 bits
+	input wire t, // Porta de entrada
+	output wire rst // Porta de saída
+
+	);
+
+		// Componente SoC
+	SOC my_soc_inst (
+		.clk_clk(osc_clk),             // Conectar clk
+		.reset_reset_n(reset_n), // Conectar reset
+		.but_export(button),       // Conectar botões
+		.leds_export(led)      // Conectar LEDs
+		.x_export(x), // Conectar x
+		.rout_export(rout), // Conectar rout
+		.t_export(t), // Conectar t
+		.rst_export(rst) // Conectar rst
+		);
+
+endmodule
