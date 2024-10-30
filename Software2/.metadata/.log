@@ -1,0 +1,13 @@
+!SESSION 2024-10-29 23:36:44.134 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-29 23:38:19.642
+!MESSAGE Indexed 'SoC2_bsp' (80 sources, 126 headers) in 2,00 sec: 4.431 declarations; 5.578 references; 0 unresolved inclusions; 3 syntax errors; 18 unresolved names (0,18%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-29 23:38:19.799
+!MESSAGE Indexed 'SoC2' (1 sources, 63 headers) in 0,16 sec: 2.394 declarations; 2.230 references; 1 unresolved inclusions; 2 syntax errors; 10 unresolved names (0,22%)
