@@ -38,6 +38,9 @@ hardware/quartus/debug/
 hardware/quartus/simulation/
 hardware/quartus/db/
 hardware/quartus/incremental_db/                   # Temporary files
+hardware/quartus/incremental_db/compiled_partitions
+hardware/quartus/.qsys_edit/
+
 hardware/quartus/db/                    # Database files
 
 # Logs and Reports
