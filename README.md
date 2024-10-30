@@ -23,7 +23,7 @@
 
     cd C:\
     mkdir PSE
-    cd fourth_pse_actvt
-    git clone https://github.com/ohgabrieldias/fourth_pse_actvt
+    cd PSE
+    git clone git@github.com:ohgabrieldias/fourth_pse_actvt.git
     cd fourth_pse_actvt
   ```
