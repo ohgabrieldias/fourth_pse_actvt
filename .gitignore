@@ -32,11 +32,13 @@
 *.metadata/             # Eclipse workspace metadata
 
 # Build and debug files
-output_files/           # Quartus output folder
-build/                  # Build artifacts
-debug/                  # Debug artifacts
-simulation/             # Simulation files and outputs
-temp/                   # Temporary files
+hardware/quartus/output_files/
+hardware/quartus/build/
+hardware/quartus/debug/
+hardware/quartus/simulation/
+hardware/quartus/db/
+hardware/quartus/incremental_db/                   # Temporary files
+hardware/quartus/db/                    # Database files
 
 # Logs and Reports
 *.log                   # Log files
