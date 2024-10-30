@@ -19,5 +19,7 @@
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ohgabrieldias/fourth_pse_actvt
-   cd fourth_pse_actvt
+  cd C:\
+  mkdir PSE
+  git clone https://github.com/ohgabrieldias/fourth_pse_actvt
+  cd fourth_pse_actvt
