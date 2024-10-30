@@ -4,8 +4,8 @@
 
 BSP_TYPE=hal
 BSP_DIR=.
-SOPC_DIR=C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC1/
-SOPC_FILE=C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC1/SoC1.sopcinfo
+SOPC_DIR=C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/
+SOPC_FILE=C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/SoC1.sopcinfo
 NIOS2_BSP_ARGS=""
 CPU_NAME=
 

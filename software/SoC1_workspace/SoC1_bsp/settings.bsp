@@ -2,11 +2,11 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>30/10/2024 12:25:28</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1730298328466</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\PSE\FisrtProjetcPSE\software\SoC1_workspace\SoC1_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>30/10/2024 14:58:44</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1730307524830</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\PSE\fourth_pse_actvt\software\SoC1_workspace\SoC1_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
-        <SopcDesignFile>C:\PSE\FisrtProjetcPSE\hardware\qsys\SoC1\SoC1.sopcinfo</SopcDesignFile>
+        <SopcDesignFile>C:\PSE\fourth_pse_actvt\hardware\qsys\SoC1\SoC1.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>NIOS</Cpu>
         <SchemaVersion>1.9</SchemaVersion>

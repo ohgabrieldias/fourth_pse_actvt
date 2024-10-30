@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\PSE\\FisrtProjetcPSE\\software\\SoC1_workspace\\SoC1
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\PSE\\FisrtProjetcPSE\\hardware\\qsys\\SoC1\\SoC1.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\PSE\\FisrtProjetcPSE\\software\\SoC1_workspace\\SoC1_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\PSE\\fourth_pse_actvt\\software\\SoC1_workspace\\SoC1
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\PSE\\fourth_pse_actvt\\hardware\\qsys\\SoC1\\SoC1.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\PSE\\fourth_pse_actvt\\software\\SoC1_workspace\\SoC1_bsp

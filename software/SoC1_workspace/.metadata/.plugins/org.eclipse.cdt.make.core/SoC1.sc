@@ -2,14 +2,11 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1572586082;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1771830490">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.247298192;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.247298192.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1644576804;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.138875891">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
 <includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/"/>
 <includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
-<includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
-<includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/"/>
-<includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -236,14 +233,11 @@
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.782269936.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1666650573;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.30580663">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.247298192;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.247298192.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.257431153;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.251835401">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
 <includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/"/>
 <includePath path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
-<includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/HAL/inc"/>
-<includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/"/>
-<includePath path="C:/PSE/FisrtProjetcPSE/software/SoC1_workspace/SoC1_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include"/>

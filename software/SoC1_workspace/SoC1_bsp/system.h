@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'NIOS' in SOPC Builder design 'SoC1'
- * SOPC Builder design path: C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC1/SoC1.sopcinfo
+ * SOPC Builder design path: C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/SoC1.sopcinfo
  *
- * Generated: Wed Oct 30 12:25:03 BRST 2024
+ * Generated: Wed Oct 30 14:58:25 BRST 2024
  */
 
 /*
