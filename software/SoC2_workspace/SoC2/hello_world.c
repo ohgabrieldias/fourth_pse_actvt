@@ -1,16 +1,17 @@
 /*
- * "Hello World" example.
+ * Exemplo "Hello World".
  *
- * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
- * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
- * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
- * device in your system's hardware.
- * The memory footprint of this hosted application is ~69 kbytes by default
- * using the standard reference design.
+ * Este exemplo imprime 'Hello from Nios II' no fluxo STDOUT. Ele roda nas
+ * plataformas 'standard', 'full_featured', 'fast' e 'low_cost' do Nios II.
+ * Funciona com ou sem o RTOS MicroC/OS-II e requer um dispositivo STDOUT
+ * no hardware do sistema.
  *
- * For a reduced footprint version of this template, and an explanation of how
- * to reduce the memory footprint for a given application, see the
- * "small_hello_world" template.
+ * O tamanho em memória desta aplicação é de aproximadamente 69 kbytes por
+ * padrão usando o design de referência padrão.
+ *
+ * Para uma versão com menor footprint de memória, e uma explicação de como
+ * reduzir o footprint de memória para uma aplicação específica, veja o
+ * template "small_hello_world".
  *
  */
 #define REQ_ADDR (short *) REQ_BASE
@@ -23,21 +24,29 @@
 #include "io.h"
 
 int main() {
-    // Main communication loop for SoC2
+    // Loop principal de comunicação para o SoC2
     while (1) {
-        // Wait for req signal from SoC1
+        // Aguarda o sinal de requisição (req) do SoC1
+        printf("Aguardando sinal de requisição (req) do SoC1...\n");
         while (IORD(RECEIVE_REQ_BASE, 0) == 0);
 
-        // Do something when req is received
+        // Quando o sinal de requisição é recebido, executa uma ação
+        printf("Sinal de requisição (req) recebido! Executando ação...\n");
 
-        // Send ack signal to SoC1
+        // Envia sinal de reconhecimento (ack) para o SoC1
+        printf("Enviando sinal de reconhecimento (ack) para o SoC1...\n");
         IOWR(ACK_BASE, 0, 1);
 
-        // Wait for SoC1 to clear req
+        // Aguarda o SoC1 limpar o sinal de requisição
+        printf("Aguardando o SoC1 limpar o sinal de requisição (req)...\n");
         while (IORD(RECEIVE_REQ_BASE, 0) == 1);
 
-        // Clear ack signal
+        // Limpa o sinal de reconhecimento (ack)
+        printf("Limpando sinal de reconhecimento (ack)...\n");
         IOWR(ACK_BASE, 0, 0);
+
+        // Indica que o loop recomeçará para a próxima comunicação
+        printf("Sinal de reconhecimento (ack) limpo! Reiniciando o loop de comunicação...\n");
     }
     return 0;
 }
