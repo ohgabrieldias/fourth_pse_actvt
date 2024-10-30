@@ -1,0 +1,774 @@
+Archive member included because of file (symbol)
+
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o (alt_load)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o (alt_main)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o) (close)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                              c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o) (__call_exitprocs)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                              c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o) (_global_impure_ptr)
+c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o) (__mulsi3)
+C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00010000         0x00000020
+RAM              0x00010020         0x00009fe0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+LOAD C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+                0x00010000                __alt_mem_RAM = 0x10000
+
+.entry          0x00010000       0x20
+ *(.entry)
+ .entry         0x00010000       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+                0x00010000                __reset
+
+.exceptions     0x00010020        0x0
+                0x00010020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00010020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x00010020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00010020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00010020     0x11e0
+                0x00010020                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00010020       0x3c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+                0x00010020                _start
+ .text          0x0001005c       0x58 obj/default/hello_world.o
+                0x0001005c                main
+ .text          0x000100b4       0xec C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+                0x000100b4                alt_load
+ .text          0x000101a0       0x5c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+                0x000101a0                alt_main
+ .text          0x000101fc       0xac C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000101fc                alt_irq_init
+                0x00010230                alt_sys_init
+ .text          0x000102a8       0xb0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x000102a8                altera_avalon_jtag_uart_read_fd
+                0x00010300                altera_avalon_jtag_uart_write_fd
+ .text          0x00010358      0x104 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00010358                altera_avalon_jtag_uart_read
+ .text          0x0001045c       0xa4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0001045c                altera_avalon_jtag_uart_write
+ .text          0x00010500      0x160 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+                0x00010500                close
+ .text          0x00010660       0x1c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00010660                alt_dcache_flush_all
+ .text          0x0001067c       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000106a8      0x114 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000106a8                alt_dev_llist_insert
+ .text          0x000107bc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x000107bc       0x1c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x000107bc                alt_icache_flush_all
+ .text          0x000107d8      0x150 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x000108b0                alt_io_redirect
+ .text          0x00010928      0x2e4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+                0x00010a20                open
+ .text          0x00010c0c       0x78 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00010c0c                alt_release_fd
+ .text          0x00010c84       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00010c84                altera_nios2_qsys_irq_init
+ .text          0x00010ca4       0x94 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00010ca4                alt_find_dev
+ .text          0x00010d38      0x120 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00010d38                alt_find_file
+ .text          0x00010e58       0xd0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00010e58                alt_get_fd
+ .text          0x00010f28       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                0x00010f28                exit
+ .text          0x00010f48        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .text          0x00010f48       0x3c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                0x00010f48                memcmp
+ .text          0x00010f84       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x00010f84                strlen
+ .text          0x00010fa4      0x1c0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                0x00010fa8                __call_exitprocs
+ .text          0x00011164        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .text          0x00011164       0x38 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x00011164                __mulsi3
+ .text          0x0001119c       0x60 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000111dc                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x000111fc                PROVIDE (__etext, ABSOLUTE (.))
+                0x000111fc                PROVIDE (_etext, ABSOLUTE (.))
+                0x000111fc                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000111fc                . = ALIGN (0x4)
+                0x000111fc                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x000111fc                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x000111fc                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x000111fc                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x000111fc                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x000111fc                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.dynamic)
+                0x000111fc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+ .ctors.65535   0x000111fc        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                0x00011200                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00011200                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00011200                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00011200                . = ALIGN (0x4)
+
+.rodata         0x00011200       0x24
+                0x00011200                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00011200                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00011200        0xc C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x0001120c        0xc C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x00011218        0xc C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x00011224                . = ALIGN (0x4)
+                0x00011224                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00011200                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00011224      0x2d4 load address 0x000114f8
+                0x00011224                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00011224                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00011224        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .data          0x00011224        0x0 obj/default/hello_world.o
+ .data          0x00011224        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00011224        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00011224       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00011250        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00011250        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00011250        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00011250        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00011250        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00011250      0x1a8 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00011250                alt_dev_null
+                0x00011278                alt_fd_list
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000113f8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000113f8        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .data          0x000113f8        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .data          0x000113f8        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .data          0x000113f8        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .data          0x000113f8        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x000113f8       0xe0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data          0x000114d8        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x000114d8        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000194d8                _gp = ABSOLUTE ((. + 0x8000))
+                0x000194d8                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000114d8       0x14 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000114d8                alt_fs_list
+                0x000114e0                alt_dev_list
+                0x000114e8                alt_max_fd
+ .sdata         0x000114ec        0x4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000114ec                alt_errno
+ .sdata         0x000114f0        0x8 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x000114f0                _impure_ptr
+                0x000114f4                _global_impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000114f8                . = ALIGN (0x4)
+                0x000114f8                _edata = ABSOLUTE (.)
+                0x000114f8                PROVIDE (edata, ABSOLUTE (.))
+                0x000114f8                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x000114f8                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x000117cc       0x10
+                0x000117cc                __bss_start = ABSOLUTE (.)
+                0x000117cc                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x000117cc                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000117cc        0xc C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+                0x000117cc                alt_argc
+                0x000117d0                alt_argv
+                0x000117d4                alt_envp
+ .sbss          0x000117d8        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                0x000117d8                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x000117dc                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x000117dc                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .bss           0x000117dc        0x0 obj/default/hello_world.o
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .bss           0x000117dc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x000117dc        0x0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x000117dc                . = ALIGN (0x4)
+                0x000117dc                __bss_end = ABSOLUTE (.)
+
+.RAM            0x000117dc        0x0
+                0x000117dc                PROVIDE (_alt_partition_RAM_start, ABSOLUTE (.))
+ *(.RAM. RAM.*)
+                0x000117dc                . = ALIGN (0x4)
+                0x000117dc                PROVIDE (_alt_partition_RAM_end, ABSOLUTE (.))
+                0x000117dc                _end = ABSOLUTE (.)
+                0x000117dc                end = ABSOLUTE (.)
+                0x000117dc                __alt_stack_base = ABSOLUTE (.)
+                0x000117dc                PROVIDE (_alt_partition_RAM_load_addr, LOADADDR (.RAM))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/hello_world.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .comment       0x00000000       0x24 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x00000000       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x348
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x00000048       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000068       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000088       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x000000a8       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x000000c8       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x000000e8       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000108       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000128       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000148       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000168       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000188       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x000001a8       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x000001c8       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x000001e8       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000208       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000228       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000248       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000268       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000288       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_aranges
+                0x000002a8       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x000002c8       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x000002e8       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000308       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000328       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+                0x00000000      0x4a1
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b obj/default/hello_world.o
+ .debug_pubnames
+                0x0000001b       0x1f C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_pubnames
+                0x0000003a       0x46 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_pubnames
+                0x00000080       0x34 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_pubnames
+                0x000000b4       0x5b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_pubnames
+                0x0000010f       0x33 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_pubnames
+                0x00000142       0x34 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_pubnames
+                0x00000176       0x1c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_pubnames
+                0x00000192       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_pubnames
+                0x000001bd       0x63 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_pubnames
+                0x00000220       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_pubnames
+                0x0000024b       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_pubnames
+                0x0000026b       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_pubnames
+                0x00000296       0x26 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_pubnames
+                0x000002bc       0x1b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_pubnames
+                0x000002d7       0x25 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_pubnames
+                0x000002fc       0x31 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_pubnames
+                0x0000032d       0x23 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_pubnames
+                0x00000350       0x24 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_pubnames
+                0x00000374       0x21 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_pubnames
+                0x00000395       0x1b c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_pubnames
+                0x000003b0       0x1c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_pubnames
+                0x000003cc       0x1d c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_pubnames
+                0x000003e9       0x1d c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_pubnames
+                0x00000406       0x27 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_pubnames
+                0x0000042d       0x39 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_pubnames
+                0x00000466       0x1f c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_pubnames
+                0x00000485       0x1c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_info     0x00000000     0x57bb
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x69 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000069      0x128 obj/default/hello_world.o
+ .debug_info    0x00000191      0x27b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000040c      0x213 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000061f      0x560 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000b7f      0x5a7 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00001126      0x2f7 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000141d      0x2d4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000016f1      0x455 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00001b46      0x14a C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00001c90      0x66d C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000022fd      0x2a5 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000025a2      0x152 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000026f4      0x14a C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000283e      0x683 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00002ec1      0x513 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x000033d4      0x3e0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000037b4      0x151 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00003905      0x406 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00003d0b      0x40d C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00004118      0x44e C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00004566       0x9f c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_info    0x00004605       0x8c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00004691       0xef c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x00004780       0xc2 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x00004842      0x6d5 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00004f17      0x636 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000554d       0xf3 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x00005640      0x17b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x1386
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0x3f obj/default/hello_world.o
+ .debug_abbrev  0x00000051       0x88 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000d9       0xb7 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000190      0x121 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000002b1       0xcb C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000037c       0xb6 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00000432       0xb4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000004e6       0xfb C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x000005e1       0x3f C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000620       0xc7 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x000006e7       0xf6 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x000007dd       0x5e C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000083b       0x3f C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000087a       0xf0 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000096a      0x112 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00000a7c       0xc1 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000b3d       0x3f C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00000b7c       0xcf C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000c4b       0xcf C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00000d1a       0xfb C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00000e15       0x4e c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000e63       0x3b c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000e9e       0x7c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00000f1a       0x7a c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00000f94      0x1c6 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000115a      0x13f c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x00001299       0x7b c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x00001314       0x72 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x3f47
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x224 obj/default/hello_world.o
+ .debug_line    0x0000028a      0x211 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000049b      0x2b4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000074f      0x2a8 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x000009f7      0x1d4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000bcb      0x33d C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000f08      0x2fe C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00001206      0x293 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x00001499      0x1af C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00001648      0x24e C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00001896      0x254 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00001aea      0x1a4 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00001c8e      0x1af C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00001e3d      0x2ae C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x000020eb      0x2f9 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x000023e4       0xed C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x000024d1      0x1c8 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00002699      0x265 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x000028fe      0x276 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x00002b74      0x291 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x00002e05      0x21d c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_line    0x00003022      0x1dc c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000031fe      0x267 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x00003465      0x247 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x000036ac      0x35a c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00003a06      0x227 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x00003c2d      0x11a c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x00003d47      0x200 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000      0x570
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c obj/default/hello_world.o
+ .debug_frame   0x0000002c       0x48 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000074       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000a0       0x64 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000104       0x48 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000014c       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000178       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x000001a4       0x48 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x000001ec       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000218       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000244       0x48 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000028c       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000002b8       0x4c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000304       0x68 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000036c       0x30 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000039c       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x000003c8       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x000003f4       0x2c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000420       0x30 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000450       0x2c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_frame   0x0000047c       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000049c       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x000004bc       0x4c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000508       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x00000528       0x48 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000      0x8ef
+ *(.debug_str)
+ .debug_str     0x00000000       0x12 obj/default/hello_world.o
+ .debug_str     0x00000012       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_str     0x00000024       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_str     0x00000036       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_str     0x00000048       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_str     0x0000005a       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_str     0x0000006c       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_str     0x0000007e       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x00000090       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_str     0x000000a2       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x000000b4       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_str     0x000000c6       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x000000d8       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_str     0x000000ea       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_str     0x000000fc       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_str     0x0000010e       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_str     0x00000120       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x00000132       0x12 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_str     0x00000144      0x137 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x0000027b       0xd9 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                                0x174 (size before relaxing)
+ .debug_str     0x00000354       0xe6 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                                0x17b (size before relaxing)
+ .debug_str     0x0000043a       0x45 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x0000047f      0x342 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                                0x48e (size before relaxing)
+ .debug_str     0x000007c1       0x49 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                                0x45a (size before relaxing)
+ .debug_str     0x0000080a       0xc9 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                0x172 (size before relaxing)
+ .debug_str     0x000008d3       0x1c C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_loc      0x00000000      0x7e5
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x2b obj/default/hello_world.o
+ .debug_loc     0x0000002b       0x56 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000081       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x000000ac       0x81 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000012d       0x56 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x00000183       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x000001ae       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000001d9       0x56 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x0000022f       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x0000025a       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x00000285       0x56 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x000002db       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x00000306       0x56 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x0000035c       0x81 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_loc     0x000003dd       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x00000408       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x00000433       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x0000045e       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x00000489       0x2b C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x000004b4       0x3d c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_loc     0x000004f1       0x70 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000561       0x1e c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x0000057f      0x1c1 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00000740       0x4f c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loc     0x0000078f       0x56 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+                0x0001a000                __alt_data_end = 0x1a000
+                0x0001a000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x000117dc                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x000117dc                PROVIDE (__alt_heap_start, end)
+                0x0001a000                PROVIDE (__alt_heap_limit, 0x1a000)
+OUTPUT(SoC2.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0x38
+ .debug_ranges  0x00000000       0x20 C:/PSE/FisrtProjetcPSE/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x18 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Oct 10 21:44:45 2024
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : FirstProjectPSE
+Top-level Entity Name : FirstProjectPSE
+Family : Cyclone III
+Device : EP3C25F324C6
+Timing Models : Final
+Total logic elements : 1,631 / 24,624 ( 7 % )
+    Total combinational functions : 1,545 / 24,624 ( 6 % )
+    Dedicated logic registers : 901 / 24,624 ( 4 % )
+Total registers : 901
+Total pins : 10 / 216 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 338,944 / 608,256 ( 56 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
