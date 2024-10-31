@@ -36,7 +36,7 @@ module SoC1_SYSID (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1730379950 : 0;
+  assign readdata = address ? 1730382123 : 0;
 
 endmodule
 

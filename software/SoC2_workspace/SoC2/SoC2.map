@@ -71,8 +71,8 @@ errno               0x4               c:/altera/13.0/nios2eds/bin/gnu/h-i686-min
 Memory Configuration
 
 Name             Origin             Length             Attributes
-reset            0x00010000         0x00000020
-RAM              0x00010020         0x00009fe0
+reset            0x00008000         0x00000020
+RAM              0x00008020         0x00004fe0
 *default*        0x00000000         0xffffffff
 
 Linker script and memory map
@@ -88,16 +88,16 @@ LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1
 LOAD C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a
 END GROUP
 LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
-                0x00010000                __alt_mem_RAM = 0x10000
+                0x00008000                __alt_mem_RAM = 0x8000
 
-.entry          0x00010000       0x20
+.entry          0x00008000       0x20
  *(.entry)
- .entry         0x00010000       0x20 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
-                0x00010000                __reset
+ .entry         0x00008000       0x20 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+                0x00008000                __reset
 
-.exceptions     0x00010020        0x0
-                0x00010020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
-                0x00010020                . = ALIGN (0x20)
+.exceptions     0x00008020        0x0
+                0x00008020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00008020                . = ALIGN (0x20)
  *(.irq)
  *(.exceptions.entry.label)
  *(.exceptions.entry.user)
@@ -119,11 +119,11 @@ LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1
  *(.exceptions.exit.user)
  *(.exceptions.exit)
  *(.exceptions)
-                0x00010020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
-                0x00010020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+                0x00008020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00008020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
 
-.text           0x00010020     0x1584
-                0x00010020                PROVIDE (stext, ABSOLUTE (.))
+.text           0x00008020     0x1584
+                0x00008020                PROVIDE (stext, ABSOLUTE (.))
  *(.interp)
  *(.hash)
  *(.dynsym)
@@ -167,243 +167,243 @@ LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1
  *(.init)
  *(.plt)
  *(.text .stub .text.* .gnu.linkonce.t.*)
- .text          0x00010020       0x3c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
-                0x00010020                _start
- .text          0x0001005c       0xa0 obj/default/hello_world.o
-                0x0001005c                main
- .text          0x000100fc       0xa4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
-                0x000100fc                _puts_r
-                0x0001018c                puts
- .text          0x000101a0       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
-                0x000101a0                strlen
- .text          0x000101c0       0xbc c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
-                0x000101c0                __sfvwrite_small_dev
- .text          0x0001027c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
- .text          0x0001027c       0x78 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
-                0x0001027c                _write_r
- .text          0x000102f4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
- .text          0x000102f4       0xec C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
-                0x000102f4                alt_load
- .text          0x000103e0       0x5c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
-                0x000103e0                alt_main
- .text          0x0001043c      0x184 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
-                0x0001043c                write
- .text          0x000105c0       0xac C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
-                0x000105c0                alt_irq_init
-                0x000105f4                alt_sys_init
- .text          0x0001066c       0xb0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
-                0x0001066c                altera_avalon_jtag_uart_read_fd
-                0x000106c4                altera_avalon_jtag_uart_write_fd
- .text          0x0001071c      0x104 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
-                0x0001071c                altera_avalon_jtag_uart_read
- .text          0x00010820       0xa4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
-                0x00010820                altera_avalon_jtag_uart_write
- .text          0x000108c4      0x160 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
-                0x000108c4                close
- .text          0x00010a24       0x1c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
-                0x00010a24                alt_dcache_flush_all
- .text          0x00010a40       0x2c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
- .text          0x00010a6c      0x114 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
-                0x00010a6c                alt_dev_llist_insert
- .text          0x00010b80        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
- .text          0x00010b80       0x1c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
-                0x00010b80                alt_icache_flush_all
- .text          0x00010b9c      0x150 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
-                0x00010c74                alt_io_redirect
- .text          0x00010cec      0x2e4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
-                0x00010de4                open
- .text          0x00010fd0       0x78 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
-                0x00010fd0                alt_release_fd
- .text          0x00011048       0x20 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
-                0x00011048                altera_nios2_qsys_irq_init
- .text          0x00011068       0x94 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
-                0x00011068                alt_find_dev
- .text          0x000110fc      0x120 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
-                0x000110fc                alt_find_file
- .text          0x0001121c       0xd0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
-                0x0001121c                alt_get_fd
- .text          0x000112ec       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
-                0x000112ec                exit
- .text          0x0001130c       0x3c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
-                0x0001130c                memcmp
- .text          0x00011348      0x1c0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
-                0x0001134c                __call_exitprocs
- .text          0x00011508       0x38 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
-                0x00011508                __mulsi3
- .text          0x00011540       0x60 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
-                0x00011580                _exit
+ .text          0x00008020       0x3c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+                0x00008020                _start
+ .text          0x0000805c       0xa0 obj/default/hello_world.o
+                0x0000805c                main
+ .text          0x000080fc       0xa4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+                0x000080fc                _puts_r
+                0x0000818c                puts
+ .text          0x000081a0       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x000081a0                strlen
+ .text          0x000081c0       0xbc c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x000081c0                __sfvwrite_small_dev
+ .text          0x0000827c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .text          0x0000827c       0x78 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                0x0000827c                _write_r
+ .text          0x000082f4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .text          0x000082f4       0xec C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+                0x000082f4                alt_load
+ .text          0x000083e0       0x5c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+                0x000083e0                alt_main
+ .text          0x0000843c      0x184 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
+                0x0000843c                write
+ .text          0x000085c0       0xac C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000085c0                alt_irq_init
+                0x000085f4                alt_sys_init
+ .text          0x0000866c       0xb0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000866c                altera_avalon_jtag_uart_read_fd
+                0x000086c4                altera_avalon_jtag_uart_write_fd
+ .text          0x0000871c      0x104 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000871c                altera_avalon_jtag_uart_read
+ .text          0x00008820       0xa4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00008820                altera_avalon_jtag_uart_write
+ .text          0x000088c4      0x160 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+                0x000088c4                close
+ .text          0x00008a24       0x1c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00008a24                alt_dcache_flush_all
+ .text          0x00008a40       0x2c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00008a6c      0x114 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x00008a6c                alt_dev_llist_insert
+ .text          0x00008b80        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00008b80       0x1c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00008b80                alt_icache_flush_all
+ .text          0x00008b9c      0x150 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x00008c74                alt_io_redirect
+ .text          0x00008cec      0x2e4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+                0x00008de4                open
+ .text          0x00008fd0       0x78 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00008fd0                alt_release_fd
+ .text          0x00009048       0x20 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00009048                altera_nios2_qsys_irq_init
+ .text          0x00009068       0x94 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00009068                alt_find_dev
+ .text          0x000090fc      0x120 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x000090fc                alt_find_file
+ .text          0x0000921c       0xd0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x0000921c                alt_get_fd
+ .text          0x000092ec       0x20 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                0x000092ec                exit
+ .text          0x0000930c       0x3c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                0x0000930c                memcmp
+ .text          0x00009348      0x1c0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                0x0000934c                __call_exitprocs
+ .text          0x00009508       0x38 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x00009508                __mulsi3
+ .text          0x00009540       0x60 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+                0x00009580                _exit
  *(.gnu.warning.*)
  *(.fini)
-                0x000115a0                PROVIDE (__etext, ABSOLUTE (.))
-                0x000115a0                PROVIDE (_etext, ABSOLUTE (.))
-                0x000115a0                PROVIDE (etext, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__etext, ABSOLUTE (.))
+                0x000095a0                PROVIDE (_etext, ABSOLUTE (.))
+                0x000095a0                PROVIDE (etext, ABSOLUTE (.))
  *(.eh_frame_hdr)
-                0x000115a0                . = ALIGN (0x4)
-                0x000115a0                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+                0x000095a0                . = ALIGN (0x4)
+                0x000095a0                PROVIDE (__preinit_array_start, ABSOLUTE (.))
  *(.preinit_array)
-                0x000115a0                PROVIDE (__preinit_array_end, ABSOLUTE (.))
-                0x000115a0                PROVIDE (__init_array_start, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__init_array_start, ABSOLUTE (.))
  *(.init_array)
-                0x000115a0                PROVIDE (__init_array_end, ABSOLUTE (.))
-                0x000115a0                PROVIDE (__fini_array_start, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__fini_array_start, ABSOLUTE (.))
  *(.fini_array)
-                0x000115a0                PROVIDE (__fini_array_end, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__fini_array_end, ABSOLUTE (.))
  *(.eh_frame)
  *(.gcc_except_table)
  *(.dynamic)
-                0x000115a0                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+                0x000095a0                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
  *(.ctors)
  *(SORT(.ctors.*))
- .ctors.65535   0x000115a0        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
-                0x000115a4                PROVIDE (__CTOR_END__, ABSOLUTE (.))
-                0x000115a4                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ .ctors.65535   0x000095a0        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                0x000095a4                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x000095a4                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
  *(.dtors)
  *(SORT(.dtors.*))
-                0x000115a4                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+                0x000095a4                PROVIDE (__DTOR_END__, ABSOLUTE (.))
  *(.jcr)
-                0x000115a4                . = ALIGN (0x4)
+                0x000095a4                . = ALIGN (0x4)
 
-.rodata         0x000115a4      0x178
-                0x000115a4                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
-                0x000115a4                . = ALIGN (0x4)
+.rodata         0x000095a4      0x178
+                0x000095a4                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000095a4                . = ALIGN (0x4)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x000115a4      0x150 obj/default/hello_world.o
+ .rodata        0x000095a4      0x150 obj/default/hello_world.o
  .rodata.str1.4
-                0x000116f4        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
- .rodata        0x000116f8        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
- .rodata        0x00011704        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
- .rodata        0x00011710        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000096f4        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .rodata        0x000096f8        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x00009704        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x00009710        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
  *(.rodata1)
-                0x0001171c                . = ALIGN (0x4)
-                0x0001171c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
-                0x000115a4                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+                0x0000971c                . = ALIGN (0x4)
+                0x0000971c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000095a4                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
 
-.rwdata         0x0001171c      0x2d4 load address 0x000119f0
-                0x0001171c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
-                0x0001171c                . = ALIGN (0x4)
+.rwdata         0x0000971c      0x2d4 load address 0x000099f0
+                0x0000971c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000971c                . = ALIGN (0x4)
  *(.got.plt)
  *(.got)
  *(.data1)
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0001171c        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
- .data          0x0001171c        0x0 obj/default/hello_world.o
- .data          0x0001171c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
- .data          0x0001171c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
- .data          0x0001171c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
- .data          0x0001171c       0xe0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
- .data          0x000117fc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
- .data          0x000117fc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
- .data          0x000117fc        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
- .data          0x000117fc        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
- .data          0x000117fc        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
- .data          0x000117fc       0x2c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
- .data          0x00011828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .data          0x00011828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .data          0x00011828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .data          0x00011828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
- .data          0x00011828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .data          0x00011828      0x1a8 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
-                0x00011828                alt_dev_null
-                0x00011850                alt_fd_list
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
- .data          0x000119d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
- .data          0x000119d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
- .data          0x000119d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
- .data          0x000119d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
- .data          0x000119d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
-                0x000199d0                _gp = ABSOLUTE ((. + 0x8000))
-                0x000199d0                PROVIDE (gp, _gp)
+ .data          0x0000971c        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .data          0x0000971c        0x0 obj/default/hello_world.o
+ .data          0x0000971c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .data          0x0000971c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .data          0x0000971c        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x0000971c       0xe0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data          0x000097fc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .data          0x000097fc        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .data          0x000097fc        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000097fc        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000097fc        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x000097fc       0x2c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00009828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00009828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00009828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00009828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00009828        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00009828      0x1a8 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00009828                alt_dev_null
+                0x00009850                alt_fd_list
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000099d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .data          0x000099d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .data          0x000099d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x000099d0        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x000099d0        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000119d0                _gp = ABSOLUTE ((. + 0x8000))
+                0x000119d0                PROVIDE (gp, _gp)
  *(.rwdata .rwdata.*)
  *(.sdata .sdata.* .gnu.linkonce.s.*)
- .sdata         0x000119d0        0x8 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
-                0x000119d0                _impure_ptr
-                0x000119d4                _global_impure_ptr
- .sdata         0x000119d8       0x14 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
-                0x000119d8                alt_fs_list
-                0x000119e0                alt_dev_list
-                0x000119e8                alt_max_fd
- .sdata         0x000119ec        0x4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
-                0x000119ec                alt_errno
+ .sdata         0x000099d0        0x8 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x000099d0                _impure_ptr
+                0x000099d4                _global_impure_ptr
+ .sdata         0x000099d8       0x14 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000099d8                alt_fs_list
+                0x000099e0                alt_dev_list
+                0x000099e8                alt_max_fd
+ .sdata         0x000099ec        0x4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000099ec                alt_errno
  *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
-                0x000119f0                . = ALIGN (0x4)
-                0x000119f0                _edata = ABSOLUTE (.)
-                0x000119f0                PROVIDE (edata, ABSOLUTE (.))
-                0x000119f0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
-                0x000119f0                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+                0x000099f0                . = ALIGN (0x4)
+                0x000099f0                _edata = ABSOLUTE (.)
+                0x000099f0                PROVIDE (edata, ABSOLUTE (.))
+                0x000099f0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x000099f0                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
 
-.bss            0x00011cc4       0x10
-                0x00011cc4                __bss_start = ABSOLUTE (.)
-                0x00011cc4                PROVIDE (__sbss_start, ABSOLUTE (.))
-                0x00011cc4                PROVIDE (___sbss_start, ABSOLUTE (.))
+.bss            0x00009cc4       0x10
+                0x00009cc4                __bss_start = ABSOLUTE (.)
+                0x00009cc4                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00009cc4                PROVIDE (___sbss_start, ABSOLUTE (.))
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
- .sbss          0x00011cc4        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
-                0x00011cc4                errno
- .sbss          0x00011cc8        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
-                0x00011cc8                alt_argc
-                0x00011ccc                alt_argv
-                0x00011cd0                alt_envp
+ .sbss          0x00009cc4        0x4 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                0x00009cc4                errno
+ .sbss          0x00009cc8        0xc C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+                0x00009cc8                alt_argc
+                0x00009ccc                alt_argv
+                0x00009cd0                alt_envp
  *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
  *(.scommon)
-                0x00011cd4                PROVIDE (__sbss_end, ABSOLUTE (.))
-                0x00011cd4                PROVIDE (___sbss_end, ABSOLUTE (.))
+                0x00009cd4                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00009cd4                PROVIDE (___sbss_end, ABSOLUTE (.))
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
- .bss           0x00011cd4        0x0 obj/default/hello_world.o
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
- .bss           0x00011cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
- .bss           0x00011cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .bss           0x00009cd4        0x0 obj/default/hello_world.o
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x00009cd4        0x0 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x00009cd4        0x0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
  *(COMMON)
-                0x00011cd4                . = ALIGN (0x4)
-                0x00011cd4                __bss_end = ABSOLUTE (.)
+                0x00009cd4                . = ALIGN (0x4)
+                0x00009cd4                __bss_end = ABSOLUTE (.)
 
-.RAM            0x00011cd4        0x0
-                0x00011cd4                PROVIDE (_alt_partition_RAM_start, ABSOLUTE (.))
+.RAM            0x00009cd4        0x0
+                0x00009cd4                PROVIDE (_alt_partition_RAM_start, ABSOLUTE (.))
  *(.RAM. RAM.*)
-                0x00011cd4                . = ALIGN (0x4)
-                0x00011cd4                PROVIDE (_alt_partition_RAM_end, ABSOLUTE (.))
-                0x00011cd4                _end = ABSOLUTE (.)
-                0x00011cd4                end = ABSOLUTE (.)
-                0x00011cd4                __alt_stack_base = ABSOLUTE (.)
-                0x00011cd4                PROVIDE (_alt_partition_RAM_load_addr, LOADADDR (.RAM))
+                0x00009cd4                . = ALIGN (0x4)
+                0x00009cd4                PROVIDE (_alt_partition_RAM_end, ABSOLUTE (.))
+                0x00009cd4                _end = ABSOLUTE (.)
+                0x00009cd4                end = ABSOLUTE (.)
+                0x00009cd4                __alt_stack_base = ABSOLUTE (.)
+                0x00009cd4                PROVIDE (_alt_partition_RAM_load_addr, LOADADDR (.RAM))
 
 .stab
  *(.stab)
@@ -602,41 +602,41 @@ LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1
  .debug_pubnames
                 0x00000512       0x1c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
 
-.debug_info     0x00000000     0x71dc
+.debug_info     0x00000000     0x71f2
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000       0x69 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
- .debug_info    0x00000069      0x129 obj/default/hello_world.o
- .debug_info    0x00000192      0x685 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
- .debug_info    0x00000817       0xc2 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
- .debug_info    0x000008d9      0x68e c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
- .debug_info    0x00000f67      0x636 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
- .debug_info    0x0000159d      0x68c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
- .debug_info    0x00001c29       0x8c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
- .debug_info    0x00001cb5      0x27b C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
- .debug_info    0x00001f30      0x213 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
- .debug_info    0x00002143      0x681 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
- .debug_info    0x000027c4      0x560 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
- .debug_info    0x00002d24      0x5a7 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .debug_info    0x000032cb      0x2f7 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .debug_info    0x000035c2      0x2d4 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .debug_info    0x00003896      0x455 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
- .debug_info    0x00003ceb      0x14a C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .debug_info    0x00003e35      0x66d C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
- .debug_info    0x000044a2      0x2a5 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .debug_info    0x00004747      0x152 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
- .debug_info    0x00004899      0x14a C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .debug_info    0x000049e3      0x683 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .debug_info    0x00005066      0x513 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
- .debug_info    0x00005579      0x3e0 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
- .debug_info    0x00005959      0x151 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
- .debug_info    0x00005aaa      0x406 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
- .debug_info    0x00005eb0      0x40d C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
- .debug_info    0x000062bd      0x44e C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
- .debug_info    0x0000670b       0x9f c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
- .debug_info    0x000067aa       0xef c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
- .debug_info    0x00006899      0x6d5 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
- .debug_info    0x00006f6e       0xf3 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
- .debug_info    0x00007061      0x17b C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_info    0x00000000       0x6a C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000006a      0x129 obj/default/hello_world.o
+ .debug_info    0x00000193      0x685 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x00000818       0xc2 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x000008da      0x68e c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x00000f68      0x636 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000159e      0x68c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x00001c2a       0x8c c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00001cb6      0x27c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00001f32      0x214 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00002146      0x682 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x000027c8      0x561 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00002d29      0x5a8 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x000032d1      0x2f8 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000035c9      0x2d5 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000389e      0x456 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00003cf4      0x14b C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00003e3f      0x66e C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000044ad      0x2a6 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00004753      0x153 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000048a6      0x14b C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000049f1      0x684 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00005075      0x514 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00005589      0x3e1 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000596a      0x152 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00005abc      0x407 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00005ec3      0x40e C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x000062d1      0x44f C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00006720       0x9f c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_info    0x000067bf       0xef c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x000068ae      0x6d5 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00006f83       0xf3 c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x00007076      0x17c C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp/\libhal_bsp.a(alt_exit.o)
 
 .debug_abbrev   0x00000000     0x18eb
  *(.debug_abbrev)
@@ -837,11 +837,11 @@ LOAD c:/altera/13.0/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1
  *(.debug_alt_sim_info)
  .debug_alt_sim_info
                 0x00000000       0x10 C:/PSE/fourth_pse_actvt/software/SoC2_workspace/SoC2_bsp//obj/HAL/src/crt0.o
-                0x0001a000                __alt_data_end = 0x1a000
-                0x0001a000                PROVIDE (__alt_stack_pointer, __alt_data_end)
-                0x00011cd4                PROVIDE (__alt_stack_limit, __alt_stack_base)
-                0x00011cd4                PROVIDE (__alt_heap_start, end)
-                0x0001a000                PROVIDE (__alt_heap_limit, 0x1a000)
+                0x0000d000                __alt_data_end = 0xd000
+                0x0000d000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00009cd4                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00009cd4                PROVIDE (__alt_heap_start, end)
+                0x0000d000                PROVIDE (__alt_heap_limit, 0xd000)
 OUTPUT(SoC2.elf elf32-littlenios2)
 
 .debug_ranges   0x00000000       0x38

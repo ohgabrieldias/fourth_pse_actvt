@@ -2,9 +2,9 @@
  * linker.x - Linker script
  *
  * Machine generated for CPU 'NIOS' in SOPC Builder design 'SoC2'
- * SOPC Builder design path: C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC2/SoC2.sopcinfo
+ * SOPC Builder design path: C:/PSE/fourth_pse_actvt/hardware/qsys/SoC2/SoC2.sopcinfo
  *
- * Generated: Wed Oct 30 12:28:31 BRST 2024
+ * Generated: Thu Oct 31 11:45:53 BRST 2024
  */
 
 /*
@@ -50,12 +50,12 @@
 
 MEMORY
 {
-    reset : ORIGIN = 0x10000, LENGTH = 32
-    RAM : ORIGIN = 0x10020, LENGTH = 40928
+    reset : ORIGIN = 0x8000, LENGTH = 32
+    RAM : ORIGIN = 0x8020, LENGTH = 20448
 }
 
 /* Define symbols for each memory base-address */
-__alt_mem_RAM = 0x10000;
+__alt_mem_RAM = 0x8000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",
@@ -366,7 +366,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0x1a000;
+__alt_data_end = 0xd000;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -382,4 +382,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0x1a000 );
+PROVIDE( __alt_heap_limit    = 0xd000 );

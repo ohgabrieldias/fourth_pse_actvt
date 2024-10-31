@@ -4,7 +4,7 @@
  * Machine generated for CPU 'NIOS' in SOPC Builder design 'SoC1'
  * SOPC Builder design path: C:/PSE/fourth_pse_actvt/hardware/qsys/SoC1/SoC1.sopcinfo
  *
- * Generated: Wed Oct 30 14:58:25 BRST 2024
+ * Generated: Thu Oct 31 11:42:58 BRST 2024
  */
 
 /*

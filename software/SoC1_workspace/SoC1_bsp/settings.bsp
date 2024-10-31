@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>30/10/2024 14:58:44</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1730307524830</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>31/10/2024 11:42:57</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1730382177520</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\PSE\fourth_pse_actvt\software\SoC1_workspace\SoC1_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>C:\PSE\fourth_pse_actvt\hardware\qsys\SoC1\SoC1.sopcinfo</SopcDesignFile>
@@ -864,49 +864,49 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>RAM</slaveDescriptor>
-                <addressRange>0x00010000 - 0x00019FFF</addressRange>
-                <addressSpan>40960</addressSpan>
+                <addressRange>0x00008000 - 0x0000CFFF</addressRange>
+                <addressSpan>20480</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>PCU</slaveDescriptor>
-                <addressRange>0x00021000 - 0x0002103F</addressRange>
+                <addressRange>0x00011000 - 0x0001103F</addressRange>
                 <addressSpan>64</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>ACK</slaveDescriptor>
-                <addressRange>0x00021040 - 0x0002104F</addressRange>
+                <addressRange>0x00011040 - 0x0001104F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>REQ</slaveDescriptor>
-                <addressRange>0x00021050 - 0x0002105F</addressRange>
+                <addressRange>0x00011050 - 0x0001105F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>RECEIVE_ACK</slaveDescriptor>
-                <addressRange>0x00021060 - 0x0002106F</addressRange>
+                <addressRange>0x00011060 - 0x0001106F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>RECEIVE_REQ</slaveDescriptor>
-                <addressRange>0x00021070 - 0x0002107F</addressRange>
+                <addressRange>0x00011070 - 0x0001107F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>SYSID</slaveDescriptor>
-                <addressRange>0x00021080 - 0x00021087</addressRange>
+                <addressRange>0x00011080 - 0x00011087</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>JTAG</slaveDescriptor>
-                <addressRange>0x00021088 - 0x0002108F</addressRange>
+                <addressRange>0x00011088 - 0x0001108F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

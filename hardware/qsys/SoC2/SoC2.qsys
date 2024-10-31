@@ -131,7 +131,7 @@
    {
       datum baseAddress
       {
-         value = "8328";
+         value = "69768";
          type = "String";
       }
    }
@@ -139,7 +139,7 @@
    {
       datum baseAddress
       {
-         value = "8192";
+         value = "69632";
          type = "String";
       }
    }
@@ -147,7 +147,7 @@
    {
       datum baseAddress
       {
-         value = "8320";
+         value = "69760";
          type = "String";
       }
    }
@@ -155,39 +155,7 @@
    {
       datum baseAddress
       {
-         value = "6144";
-         type = "String";
-      }
-   }
-   element RECEIVE_ACK.s1
-   {
-      datum baseAddress
-      {
-         value = "8288";
-         type = "String";
-      }
-   }
-   element REQ.s1
-   {
-      datum baseAddress
-      {
-         value = "8272";
-         type = "String";
-      }
-   }
-   element RAM.s1
-   {
-      datum baseAddress
-      {
-         value = "4096";
-         type = "String";
-      }
-   }
-   element ACK.s1
-   {
-      datum baseAddress
-      {
-         value = "8256";
+         value = "67584";
          type = "String";
       }
    }
@@ -195,7 +163,39 @@
    {
       datum baseAddress
       {
-         value = "8304";
+         value = "69744";
+         type = "String";
+      }
+   }
+   element REQ.s1
+   {
+      datum baseAddress
+      {
+         value = "69712";
+         type = "String";
+      }
+   }
+   element RAM.s1
+   {
+      datum baseAddress
+      {
+         value = "32768";
+         type = "String";
+      }
+   }
+   element RECEIVE_ACK.s1
+   {
+      datum baseAddress
+      {
+         value = "69728";
+         type = "String";
+      }
+   }
+   element ACK.s1
+   {
+      datum baseAddress
+      {
+         value = "69696";
          type = "String";
       }
    }
@@ -214,7 +214,7 @@
  <parameter name="projectName" value="" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1730379968206" />
+ <parameter name="timeStamp" value="1730382220841" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="CLK.clk_in" type="clock" dir="end" />
@@ -336,8 +336,8 @@
   <parameter name="ocimem_ramBlockType" value="Automatic" />
   <parameter name="mmu_ramBlockType" value="Automatic" />
   <parameter name="bht_ramBlockType" value="Automatic" />
-  <parameter name="instAddrWidth" value="13" />
-  <parameter name="dataAddrWidth" value="14" />
+  <parameter name="instAddrWidth" value="17" />
+  <parameter name="dataAddrWidth" value="17" />
   <parameter name="tightlyCoupledDataMaster0AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster2AddrWidth" value="1" />
@@ -346,8 +346,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='RAM.s1' start='0x1000' end='0x1800' /><slave name='NIOS.jtag_debug_module' start='0x1800' end='0x2000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='RAM.s1' start='0x1000' end='0x1800' /><slave name='NIOS.jtag_debug_module' start='0x1800' end='0x2000' /><slave name='PCU.control_slave' start='0x2000' end='0x2040' /><slave name='ACK.s1' start='0x2040' end='0x2050' /><slave name='REQ.s1' start='0x2050' end='0x2060' /><slave name='RECEIVE_ACK.s1' start='0x2060' end='0x2070' /><slave name='RECEIVE_REQ.s1' start='0x2070' end='0x2080' /><slave name='SYSID.control_slave' start='0x2080' end='0x2088' /><slave name='JTAG.avalon_jtag_slave' start='0x2088' end='0x2090' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='RAM.s1' start='0x8000' end='0xD000' /><slave name='NIOS.jtag_debug_module' start='0x10800' end='0x11000' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='RAM.s1' start='0x8000' end='0xD000' /><slave name='NIOS.jtag_debug_module' start='0x10800' end='0x11000' /><slave name='PCU.control_slave' start='0x11000' end='0x11040' /><slave name='ACK.s1' start='0x11040' end='0x11050' /><slave name='REQ.s1' start='0x11050' end='0x11060' /><slave name='RECEIVE_ACK.s1' start='0x11060' end='0x11070' /><slave name='RECEIVE_REQ.s1' start='0x11070' end='0x11080' /><slave name='SYSID.control_slave' start='0x11080' end='0x11088' /><slave name='JTAG.avalon_jtag_slave' start='0x11088' end='0x11090' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="1" />
@@ -374,7 +374,7 @@
   <parameter name="initMemContent" value="true" />
   <parameter name="initializationFileName" value="onchip_mem.hex" />
   <parameter name="instanceID" value="NONE" />
-  <parameter name="memorySize" value="2048" />
+  <parameter name="memorySize" value="20480" />
   <parameter name="readDuringWriteMode" value="DONT_CARE" />
   <parameter name="simAllowMRAMContentsFile" value="false" />
   <parameter name="simMemInitOnlyFilename" value="0" />
@@ -493,7 +493,7 @@
    start="NIOS.instruction_master"
    end="NIOS.jtag_debug_module">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1800" />
+  <parameter name="baseAddress" value="0x00010800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -502,7 +502,7 @@
    start="NIOS.data_master"
    end="NIOS.jtag_debug_module">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1800" />
+  <parameter name="baseAddress" value="0x00010800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="13.0" start="CLK.clk" end="NIOS.clk" />
@@ -512,7 +512,7 @@
  <connection kind="reset" version="13.0" start="CLK.clk_reset" end="JTAG.reset" />
  <connection kind="avalon" version="13.0" start="NIOS.data_master" end="RAM.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1000" />
+  <parameter name="baseAddress" value="0x8000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -521,7 +521,7 @@
    start="NIOS.data_master"
    end="JTAG.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2088" />
+  <parameter name="baseAddress" value="0x00011088" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -530,7 +530,7 @@
    start="NIOS.instruction_master"
    end="RAM.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1000" />
+  <parameter name="baseAddress" value="0x8000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -555,7 +555,7 @@
    start="NIOS.data_master"
    end="PCU.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2000" />
+  <parameter name="baseAddress" value="0x00011000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -571,7 +571,7 @@
    start="NIOS.data_master"
    end="SYSID.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2080" />
+  <parameter name="baseAddress" value="0x00011080" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -585,7 +585,7 @@
    start="NIOS.data_master"
    end="RECEIVE_REQ.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2070" />
+  <parameter name="baseAddress" value="0x00011070" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="13.0" start="CLK.clk" end="REQ.clk" />
@@ -601,12 +601,12 @@
    start="NIOS.data_master"
    end="RECEIVE_ACK.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2060" />
+  <parameter name="baseAddress" value="0x00011060" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="avalon" version="13.0" start="NIOS.data_master" end="REQ.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2050" />
+  <parameter name="baseAddress" value="0x00011050" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="reset" version="13.0" start="CLK.clk_reset" end="REQ.reset" />
@@ -635,7 +635,7 @@
  <connection kind="reset" version="13.0" start="CLK.clk_reset" end="ACK.reset" />
  <connection kind="avalon" version="13.0" start="NIOS.data_master" end="ACK.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x2040" />
+  <parameter name="baseAddress" value="0x00011040" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection

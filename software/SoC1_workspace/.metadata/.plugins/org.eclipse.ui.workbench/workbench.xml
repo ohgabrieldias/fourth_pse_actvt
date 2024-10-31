@@ -35,7 +35,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" partName="hello_world.c" path="C:/PSE/fourth_pse_actvt/software/SoC1_workspace/SoC1/hello_world.c" title="hello_world.c" tooltip="SoC1/hello_world.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SoC1/hello_world.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1289" selectionTopPixel="353"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="330"/>
 </editor>
 </editors>
 <views>
@@ -290,8 +290,11 @@
 <item historyLabel="hello_world.c" index="0">
 <position info="not_deleted" x="0" y="1383"/>
 </item>
-<item active="true" historyLabel="hello_world.c" index="0">
+<item historyLabel="hello_world.c" index="0">
 <position info="not_deleted" x="1383" y="0"/>
+</item>
+<item active="true" historyLabel="hello_world.c" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

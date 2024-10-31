@@ -2,9 +2,9 @@
  * linker.h - Linker script mapping information
  *
  * Machine generated for CPU 'NIOS' in SOPC Builder design 'SoC2'
- * SOPC Builder design path: C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC2/SoC2.sopcinfo
+ * SOPC Builder design path: C:/PSE/fourth_pse_actvt/hardware/qsys/SoC2/SoC2.sopcinfo
  *
- * Generated: Wed Oct 30 12:28:31 BRST 2024
+ * Generated: Thu Oct 31 11:45:53 BRST 2024
  */
 
 /*
@@ -65,9 +65,9 @@
  *
  */
 
-#define RAM_REGION_BASE 0x10020
-#define RAM_REGION_SPAN 40928
-#define RESET_REGION_BASE 0x10000
+#define RAM_REGION_BASE 0x8020
+#define RAM_REGION_SPAN 20448
+#define RESET_REGION_BASE 0x8000
 #define RESET_REGION_SPAN 32
 
 

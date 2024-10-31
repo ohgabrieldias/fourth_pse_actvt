@@ -1,9 +1,9 @@
 # memory.gdb - GDB memory region definitions
 #
 # Machine generated for CPU 'NIOS' in SOPC Builder design 'SoC2'
-# SOPC Builder design path: C:/PSE/FisrtProjetcPSE/hardware/qsys/SoC2/SoC2.sopcinfo
+# SOPC Builder design path: C:/PSE/fourth_pse_actvt/hardware/qsys/SoC2/SoC2.sopcinfo
 #
-# Generated: Wed Oct 30 12:28:31 BRST 2024
+# Generated: Thu Oct 31 11:45:53 BRST 2024
 
 # DO NOT MODIFY THIS FILE
 #
@@ -47,4 +47,4 @@
 # by allowing GDB to cache memory contents on the host.
 
 # RAM
-memory 0x10000 0x1a000 cache
+memory 0x8000 0xd000 cache
